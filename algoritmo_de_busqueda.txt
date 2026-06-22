@@ -1,0 +1,46 @@
+(
+ "Machine Learning"[Majr] OR
+ "Artificial Intelligence"[Majr] OR
+ "Deep Learning"[tiab] OR
+ "natural language processing"[tiab] OR
+ "large language model*"[tiab]
+)
+
+AND
+
+(
+ diagnos*[tiab] OR
+ prognos*[tiab] OR
+ treatment[tiab] OR
+ "Clinical Decision Support Systems"[Mesh] OR
+ "Health Services Research"[Mesh]
+)
+
+AND
+
+(
+ implementation[tiab] OR
+ external validation[tiab] OR
+ real-world[tiab]
+)
+
+AND
+
+(
+ "Systematic Review"[pt] OR
+ "Meta-Analysis"[pt]
+)
+
+AND "Humans"[Mesh]
+
+AND ("2023/01/01"[dp] : "2026/04/27" [dp])
+
+AND "free full text"[Filter]
+
+NOT
+(
+  scoping review[tiab] OR
+  "comment"[pt] OR
+  "editorial"[pt] OR
+  "letter"[pt]
+)
